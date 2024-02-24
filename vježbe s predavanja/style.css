@@ -16,7 +16,7 @@ main {
   z-index: 5;
 }
 .head-column h1 {
-  color: darkseagreen;
+  color: #acc6aa;
 }
 
 .first-container {
@@ -28,24 +28,24 @@ main {
   width: 100%;
 }
 .second-container {
-  background-color: darkseagreen;
+  background-color: #acc6aa;
 }
 .line {
-  background-color: darkseagreen;
+  background-color: #acc6aa;
   padding: 3px;
   width: 300px;
   margin-right: 5.5rem;
   text-align: start;
 }
 .oblutak {
-  color: darkseagreen;
+  color: #acc6aa;
 }
 .hidden {
   display: none;
 }
 .button-price {
   padding: 12px 15px;
-  background-color: darkseagreen;
+  background-color: #acc6aa;
   border-radius: 7.5px;
   border: none;
   font-size: 14px;
@@ -57,12 +57,12 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  max-height: 30vh;
+  max-height: 60vh;
   background-color: white;
   padding: 7rem 0;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 100;
+  z-index: 10;
 }
 .close-modal {
   position: absolute;
@@ -76,16 +76,27 @@ main {
   transition: all 0.5s ease-in-out;
 }
 .close-modal:hover {
-  background-color: darkseagreen;
+  background-color: #acc6aa;
 }
 .button-send {
-  padding: 15px 25px;
-  background-color: darkseagreen;
+  padding: 8px 12px;
+  background-color: #acc6aa;
   color: black;
-  font-weight: 900;
+  font-weight: 600;
   border: none;
 }
 /*.product-image {
   width: 375px;
   height: 347px;
 }*/
+.container-form {
+  background-color: #acc6aa;
+}
+.form-text {
+  font-size: 8px;
+  font-weight: 600;
+}
+.contact {
+  font-weight: 600;
+  color: #acc6aa;
+}
